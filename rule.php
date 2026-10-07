@@ -6,13 +6,13 @@
     $expected = "Priority Delivery";
 
     if ($total_order <= 0){
-        $hasil = "Invalid Order";
-    }elseif ($total_order >= 500000 && $city = "Jakarta"){
-        $actual = "Periority Delivery";
+        $actual = "Invalid Order";
+    }elseif ($total_order >= 500000 && $city == "Jakarta"){
+        $actual = "Priority Delivery";
     }elseif ($total_order >= 300000){
-        $actual = "Free Standar Delivery";
+        $actual = "Free Standard Delivery";
     }else{
-        $actual = "Regular Delivery (Shipping Fee Rp.20.000;)";
+        $actual = "Regular Delivery (Shipping Fee Rp.20.000)";
     }
     
     echo "# Scenarios -1 (Ordinary) <br>";
@@ -28,12 +28,12 @@
 
     if ($total_order <= 0){
         $actual = "Invalid Order";
-    }elseif ($total_order >= 500000 && $city = "Jakarta"){
-        $actual = "Periority Delivery";
+    }elseif ($total_order >= 500000 && $city == "Jakarta"){
+        $actual = "Priority Delivery";
     }elseif ($total_order >= 300000){
-        $actual = "Free Standar Delivery";
+        $actual = "Free Standard Delivery";
     }else{
-        $actual = "Regular Delivery (Shipping Fee Rp.20.000;)";
+        $actual = "Regular Delivery (Shipping Fee Rp.20.000)";
     }
     
     echo "# Scenarios -2 (Ordinary) <br>";
@@ -45,16 +45,16 @@
     //#Scenarios -3
     $total_order = 100000;
     $city  = "Jakarta";
-    $expected = "Regular Delivery — (Shipping Fee Rp.20.000;)";
+    $expected = "Regular Delivery (Shipping Fee Rp.20.000)";
 
     if ($total_order <= 0){
         $actual = "Invalid Order";
-    }elseif ($total_order >= 500000 && $city = "Jakarta"){
-        $actual = "Periority Delivery";
+    }elseif ($total_order >= 500000 && $city == "Jakarta"){
+        $actual = "Priority Delivery";
     }elseif ($total_order >= 300000){
-        $actual = "Free Standar Delivery";
+        $actual = "Free Standard Delivery";
     }else{
-        $actual = "Regular Delivery (Shipping Fee Rp.20.000;)";
+        $actual = "Regular Delivery (Shipping Fee Rp.20.000)";
     }
     
     echo "# Scenarios -3 (Ordinary) <br>";
@@ -70,12 +70,12 @@
 
     if ($total_order <= 0){
         $actual = "Invalid Order";
-    }elseif ($total_order >= 500000 && $city = "Jakarta"){
-        $actual = "Periority Delivery";
+    }elseif ($total_order >= 500000 && $city == "Jakarta"){
+        $actual = "Priority Delivery";
     }elseif ($total_order >= 300000){
-        $actual = "Free Standar Delivery";
+        $actual = "Free Standard Delivery";
     }else{
-        $actual = "Regular Delivery (Shipping Fee Rp.20.000;";
+        $actual = "Regular Delivery (Shipping Fee Rp.20.000)";
     }
     
     echo "# Scenarios -4 (Boundary) <br>";
@@ -91,12 +91,12 @@
 
     if ($total_order <= 0){
         $actual = "Invalid Order";
-    }elseif ($total_order >= 500000 && $city = "Jakarta"){
-        $actual = "Periority Delivery";
+    }elseif ($total_order >= 500000 && $city == "Jakarta"){
+        $actual = "Priority Delivery";
     }elseif ($total_order >= 300000){
-        $actual = "Free Standar Delivery";
+        $actual = "Free Standard Delivery";
     }else{
-        $actual = "Regular Delivery (Shipping Fee Rp.20.000;";
+        $actual = "Regular Delivery (Shipping Fee Rp.20.000)";
     }
     
     echo "# Scenarios -5 (Boundary) <br>";
@@ -105,19 +105,19 @@
     echo "Expected Result = " . $expected . "<br>";
     echo "Actual Result = " . $actual . "<br><br>";
 
-        //#Scenarios -6
+    //#Scenarios -6
     $total_order = 300000;
     $city  = "Bandung";
     $expected = "Free Standard Delivery";
 
     if ($total_order <= 0){
         $actual = "Invalid Order";
-    }elseif ($total_order >= 500000 && $city = "Jakarta"){
-        $actual = "Periority Delivery";
+    }elseif ($total_order >= 500000 && $city == "Jakarta"){
+        $actual = "Priority Delivery";
     }elseif ($total_order >= 300000){
-        $actual = "Free Standar Delivery";
+        $actual = "Free Standard Delivery";
     }else{
-        $actual = "Regular Delivery (Shipping Fee Rp.20.000;";
+        $actual = "Regular Delivery (Shipping Fee Rp.20.000)";
     }
     
     echo "# Scenarios -6 (Boundary) <br>";
