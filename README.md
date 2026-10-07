@@ -22,8 +22,8 @@ Scenarios -1 (Ordinary) 550000 Jakarta = Hasil Sama
 Scenarios -2 (Ordinary) 400000 Bandung = Hasil Sama
 Scenarios -3 (Ordinary) 100000 Jakarta = Hasil Sama
 Scenarios -4 (Boundary) 500000 Jakarta = Hasil Sama 
-Scenarios -5 (Boundary) 499999 | Jakarta Hasil Sama
-Scenarios -6 (Boundary) 300000 | Bandung Hasil Sama
+Scenarios -5 (Boundary) 499999 Jakarta = Hasil Sama
+Scenarios -6 (Boundary) 300000 Bandung = Hasil Sama
 
 # Kesimpulan
 Semua scenario hasilnya sama antara Expected Result dan Actual Result.
