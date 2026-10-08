@@ -9,7 +9,7 @@ berdasarkan total order dan lokasi customer.
 - Selain itu Regular Delivery Shipping Fee Rp20.000
 
 # Yang dipakai di rule.php
-- Comparison operator: `<=`, `>=`, `=`
+- Comparison operator: `<=`, `>=`, `==`
 - Logical operator: `&&`
 - if / elseif / else (4 decision branches)
 
